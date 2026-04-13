@@ -1,3 +1,21 @@
-# Never push these to GitHub
-.envgit commit -m "Initial project setup"
+# Environment variables — never push credentials
+.env
+
+# Virtual environment — never push library files
+venv/
+
+# Python compiled files
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# VS Code settings
+.vscode/
+
+# Log files
 *.log
+
+# OS files
+.DS_Store
+Thumbs.db
