@@ -23,9 +23,9 @@ from app.crud import (
 )
 
 
-# -----------------------------------------------------------------------------
-# Utility Functions
-# -----------------------------------------------------------------------------
+# =============================================================================
+# UTILITY FUNCTIONS
+# =============================================================================
 
 def clear_screen():
     """Clears the terminal screen."""
@@ -70,8 +70,9 @@ def press_enter_to_continue():
     """Pauses execution until the user presses Enter."""
     input("\nPress Enter to continue...")
 
+
 # =============================================================================
-# SECTION 2: Student Management
+# SECTION 1: Student Management
 # =============================================================================
 
 def student_menu():
@@ -236,8 +237,9 @@ def remove_student():
 
     press_enter_to_continue()
 
+
 # =============================================================================
-# SECTION 3: Course Management
+# SECTION 2: Course Management
 # =============================================================================
 
 def course_menu():
@@ -369,8 +371,9 @@ def view_course_enrollment_summary():
 
     press_enter_to_continue()
 
+
 # =============================================================================
-# SECTION 4: Enrollment Management
+# SECTION 3: Enrollment Management
 # =============================================================================
 
 def enrollment_menu():
@@ -464,7 +467,7 @@ def withdraw_enrolled_student():
 
 
 # =============================================================================
-# SECTION 5: Grades Management
+# SECTION 4: Grades Management
 # =============================================================================
 
 def grades_menu():
@@ -601,7 +604,7 @@ def view_top_students():
 
 
 # =============================================================================
-# SECTION 6: Attendance Management
+# SECTION 5: Attendance Management
 # =============================================================================
 
 def attendance_menu():
@@ -714,8 +717,70 @@ def view_full_attendance_summary():
 
     press_enter_to_continue()
 
+
 # =============================================================================
-# SECTION 5: Reports Menu
+# SECTION 6: CSV Export Functions
+# =============================================================================
+
+def export_students():
+    """Exports all students to CSV."""
+    print_header("EXPORT STUDENTS TO CSV")
+    from etl.extract import extract_students
+    from etl.transform import transform_students
+    from etl.load import export_students_csv
+    df = transform_students(extract_students())
+    export_students_csv(df)
+    press_enter_to_continue()
+
+
+def export_grades():
+    """Exports all grades to CSV."""
+    print_header("EXPORT GRADES TO CSV")
+    from etl.extract import extract_grades
+    from etl.transform import transform_grades
+    from etl.load import export_grades_csv
+    df = transform_grades(extract_grades())
+    export_grades_csv(df)
+    press_enter_to_continue()
+
+
+def export_failing():
+    """Exports failing students to CSV."""
+    print_header("EXPORT FAILING STUDENTS TO CSV")
+    from etl.extract import extract_student_summary
+    from etl.transform import transform_student_summary
+    from etl.load import export_failing_students_csv
+    df = transform_student_summary(extract_student_summary())
+    failing = df[df['average_grade'] < 50]
+    export_failing_students_csv(failing)
+    press_enter_to_continue()
+
+
+def export_top():
+    """Exports top performing students to CSV."""
+    print_header("EXPORT TOP STUDENTS TO CSV")
+    from etl.extract import extract_student_summary
+    from etl.transform import transform_student_summary
+    from etl.load import export_top_students_csv
+    df = transform_student_summary(extract_student_summary())
+    top = df[df['average_grade'] >= 75]
+    export_top_students_csv(top)
+    press_enter_to_continue()
+
+
+def export_attendance():
+    """Exports attendance summary to CSV."""
+    print_header("EXPORT ATTENDANCE TO CSV")
+    from etl.extract import extract_attendance
+    from etl.transform import transform_attendance
+    from etl.load import export_attendance_csv
+    df = transform_attendance(extract_attendance())
+    export_attendance_csv(df)
+    press_enter_to_continue()
+
+
+# =============================================================================
+# SECTION 7: Reports Menu
 # =============================================================================
 
 def reports_menu():
@@ -726,6 +791,11 @@ def reports_menu():
         print("  2. View Top Performing Students")
         print("  3. View Full Attendance Summary")
         print("  4. View Course Enrollment Summary")
+        print("  5. Export Students to CSV")
+        print("  6. Export Grades to CSV")
+        print("  7. Export Failing Students to CSV")
+        print("  8. Export Top Students to CSV")
+        print("  9. Export Attendance to CSV")
         print("  0. Back to Main Menu")
         print("=" * 60)
 
@@ -739,6 +809,16 @@ def reports_menu():
             view_full_attendance_summary()
         elif choice == '4':
             view_course_enrollment_summary()
+        elif choice == '5':
+            export_students()
+        elif choice == '6':
+            export_grades()
+        elif choice == '7':
+            export_failing()
+        elif choice == '8':
+            export_top()
+        elif choice == '9':
+            export_attendance()
         elif choice == '0':
             break
         else:
@@ -746,7 +826,26 @@ def reports_menu():
 
 
 # =============================================================================
-# SECTION 6: Main Menu and Entry Point
+# SECTION 8: ETL Pipeline
+# =============================================================================
+
+def run_etl_pipeline():
+    """Runs the full ETL pipeline from the CLI."""
+    print_header("ETL PIPELINE")
+    print("  Running full ETL pipeline...")
+    print("  This may take a moment.\n")
+
+    try:
+        from etl.pipeline import run_pipeline
+        run_pipeline()
+    except Exception as e:
+        print(f"  Pipeline error: {e}")
+
+    press_enter_to_continue()
+
+
+# =============================================================================
+# SECTION 9: Main Menu
 # =============================================================================
 
 def main_menu():
@@ -791,21 +890,6 @@ def main_menu():
             sys.exit(0)
         else:
             print("  Invalid option. Please try again.")
-
-
-def run_etl_pipeline():
-    """Runs the full ETL pipeline from the CLI."""
-    print_header("ETL PIPELINE")
-    print("  Running full ETL pipeline...")
-    print("  This may take a moment.\n")
-
-    try:
-        from etl.pipeline import run_pipeline
-        run_pipeline()
-    except Exception as e:
-        print(f"  Pipeline error: {e}")
-
-    press_enter_to_continue()
 
 
 # =============================================================================

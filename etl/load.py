@@ -146,3 +146,47 @@ def load_full_report(students_df, courses_df, enrollments_df,
                 print(f"  Sheet written: {sheet_name} ({len(df)} records)")
 
     print(f"\nFull report saved: {filepath}")
+
+# =============================================================================
+# CSV EXPORT FUNCTIONS
+# =============================================================================
+
+def export_to_csv(df, filename):
+    """
+    Writes a single DataFrame to a CSV file in the processed folder.
+    """
+    if df.empty:
+        print(f"No data to export for {filename}.")
+        return False
+
+    ensure_output_directory()
+    filepath = os.path.join(OUTPUT_DIR, filename)
+
+    df.to_csv(filepath, index=False)
+    print(f"CSV exported: {filepath}")
+    return True
+
+
+def export_students_csv(df):
+    """Exports student data to CSV."""
+    export_to_csv(df, 'students_export.csv')
+
+
+def export_grades_csv(df):
+    """Exports grades data to CSV."""
+    export_to_csv(df, 'grades_export.csv')
+
+
+def export_failing_students_csv(df):
+    """Exports failing students data to CSV."""
+    export_to_csv(df, 'failing_students_export.csv')
+
+
+def export_top_students_csv(df):
+    """Exports top performing students data to CSV."""
+    export_to_csv(df, 'top_students_export.csv')
+
+
+def export_attendance_csv(df):
+    """Exports attendance summary data to CSV."""
+    export_to_csv(df, 'attendance_summary_export.csv')

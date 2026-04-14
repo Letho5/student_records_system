@@ -1,0 +1,501 @@
+student_id,full_name,first_name,last_name,date_of_birth,age,gender,email,phone_number,program,year_of_study,status,enrollment_date
+1,David Stephens,David,Stephens,1991-10-24,34,Male,david.stephens@university.ac.za,001-496-864-3442x464,Medicine,1,Active,2022-09-23
+2,Steven Martinez,Steven,Martinez,1990-08-29,35,Male,steven.martinez@university.ac.za,948.323.0148,Electrical Engineering,1,Active,2025-06-25
+3,Mary Lewis,Mary,Lewis,1994-03-31,32,Female,mary.lewis@university.ac.za,001-749-512-9258x767,Law,4,Suspended,2026-01-18
+4,Laura Martinez,Laura,Martinez,1994-05-23,31,Female,laura.martinez@university.ac.za,8634267272,Business Administration,2,Active,2023-03-16
+5,Alex Underwood,Alex,Underwood,1997-06-19,28,Male,alex.underwood@university.ac.za,369-749-2800x700,Medicine,2,Inactive,2022-07-13
+6,Michael Williams,Michael,Williams,1996-08-16,29,Male,michael.williams@university.ac.za,(811)742-2624x16918,Human Resources,2,Active,2021-12-03
+7,Leah Davies,Leah,Davies,1992-06-11,33,Other,leah.davies@university.ac.za,401-923-8952x55783,Law,4,Active,2020-03-30
+8,Gary Gregory,Gary,Gregory,1996-09-24,29,Male,gary.gregory@university.ac.za,(340)454-2324x2180,Computer Science,3,Active,2023-06-03
+9,Michael Spears,Michael,Spears,1998-06-14,27,Male,michael.spears@university.ac.za,671.673.4693,Civil Engineering,2,Graduated,2020-01-16
+10,Anna Williams,Anna,Williams,1997-03-13,29,Female,anna.williams@university.ac.za,(345)204-3107,Mechanical Engineering,1,Active,2022-05-20
+11,Leah Carter,Leah,Carter,1991-02-02,35,Female,leah.carter@university.ac.za,507.553.9747,Medicine,1,Active,2023-03-29
+12,Gary Lewis,Gary,Lewis,1998-11-03,27,Male,gary.lewis@university.ac.za,+1-781-769-1376,Civil Engineering,4,Active,2020-02-08
+13,Bridget Owens,Bridget,Owens,1992-02-21,34,Female,bridget.owens@university.ac.za,8816677870,Medicine,2,Suspended,2021-12-09
+14,Bruce Dunn,Bruce,Dunn,1997-09-18,28,Other,bruce.dunn@university.ac.za,001-884-795-9988x498,Civil Engineering,1,Graduated,2022-05-03
+15,David Harrington,David,Harrington,1990-10-30,35,Male,david.harrington@university.ac.za,815-324-6409x29411,Psychology,1,Active,2025-12-01
+16,Michelle Chase,Michelle,Chase,1995-12-09,30,Female,michelle.chase@university.ac.za,001-482-781-2295x169,Information Technology,3,Active,2021-09-25
+17,Eric Simon,Eric,Simon,2003-05-15,22,Other,eric.simon@university.ac.za,305.899.6124,Data Science,1,Active,2025-10-29
+18,Joseph Espinoza,Joseph,Espinoza,1997-01-02,29,Male,joseph.espinoza@university.ac.za,(660)584-1873x24058,Marketing,3,Active,2025-11-02
+19,Michael Orr,Michael,Orr,2008-01-13,18,Other,michael.orr@university.ac.za,+1-393-324-7850x7507,Accounting,1,Inactive,2020-01-17
+20,Andrew Gonzalez,Andrew,Gonzalez,1990-12-22,35,Male,andrew.gonzalez@university.ac.za,374.732.5186x6055,Computer Science,3,Inactive,2021-03-06
+21,Amanda Hernandez,Amanda,Hernandez,1997-10-09,28,Other,amanda.hernandez@university.ac.za,+1-250-214-3226,Mechanical Engineering,1,Graduated,2020-12-31
+22,Todd Landry,Todd,Landry,2004-10-26,21,Other,todd.landry@university.ac.za,(970)303-8493x10072,Mechanical Engineering,4,Active,2025-08-05
+23,Linda Frey,Linda,Frey,1993-09-30,32,Female,linda.frey@university.ac.za,(673)513-6807x959,Accounting,2,Graduated,2023-06-24
+24,Dylan Jones,Dylan,Jones,1996-06-02,29,Male,dylan.jones@university.ac.za,(752)440-4858x6208,Law,1,Graduated,2021-08-20
+25,Laura Robinson,Laura,Robinson,1996-01-28,30,Other,laura.robinson@university.ac.za,+1-685-257-8664x5233,Information Technology,3,Active,2022-07-08
+26,Stephen Hickman,Stephen,Hickman,2001-06-02,24,Male,stephen.hickman@university.ac.za,001-582-726-1079x596,Mechanical Engineering,3,Active,2023-09-26
+27,Sandra Lopez,Sandra,Lopez,1994-07-20,31,Female,sandra.lopez@university.ac.za,769-313-3739,Marketing,1,Active,2023-12-12
+28,Mallory Lewis,Mallory,Lewis,1998-07-27,27,Female,mallory.lewis@university.ac.za,977.998.9019,Electrical Engineering,1,Active,2024-10-07
+29,Marc Salazar,Marc,Salazar,1993-06-29,32,Male,marc.salazar@university.ac.za,+1-340-552-1098,Nursing,3,Active,2020-05-04
+30,Michael Wilson,Michael,Wilson,2002-11-16,23,Male,michael.wilson@university.ac.za,426-695-0878,Electrical Engineering,4,Inactive,2023-12-15
+31,Stephanie Ellison,Stephanie,Ellison,1999-06-29,26,Female,stephanie.ellison@university.ac.za,337-553-3687x6183,Information Technology,4,Graduated,2023-04-24
+32,Jose Murray,Jose,Murray,1994-04-23,31,Other,jose.murray@university.ac.za,(415)499-7065,Information Technology,4,Active,2023-12-23
+33,Christopher Richardson,Christopher,Richardson,1991-08-31,34,Male,christopher.richardson@university.ac.za,9822656209,Public Administration,2,Active,2020-12-13
+34,Erica Huang,Erica,Huang,1992-06-10,33,Female,erica.huang@university.ac.za,001-267-678-0667x427,Nursing,1,Active,2023-12-31
+35,Tiffany Powers,Tiffany,Powers,1997-04-11,29,Female,tiffany.powers@university.ac.za,922.514.2236,Electrical Engineering,4,Inactive,2021-10-17
+36,Stacey West,Stacey,West,1995-06-11,30,Female,stacey.west@university.ac.za,2759594994,Law,1,Graduated,2021-08-18
+37,Jacqueline Liu,Jacqueline,Liu,2000-12-24,25,Other,jacqueline.liu@university.ac.za,8538164922,Electrical Engineering,4,Active,2022-08-18
+38,Tammy Flores,Tammy,Flores,2000-07-01,25,Female,tammy.flores@university.ac.za,437.808.7001x560,Civil Engineering,2,Graduated,2026-02-28
+39,Maria Williams,Maria,Williams,2007-03-16,19,Female,maria.williams@university.ac.za,(360)512-9005x04959,Information Technology,1,Active,2020-02-25
+40,Katherine Kelley,Katherine,Kelley,1998-09-28,27,Female,katherine.kelley@university.ac.za,956-653-2142x358,Marketing,4,Active,2020-05-16
+41,Amy Fry,Amy,Fry,2005-01-31,21,Other,amy.fry@university.ac.za,416.738.6400x10019,Law,3,Suspended,2024-08-29
+42,Michelle Powers,Michelle,Powers,2000-03-31,26,Female,michelle.powers@university.ac.za,730.575.2523x404,Information Technology,3,Active,2021-09-12
+43,Joseph Harris,Joseph,Harris,2007-02-21,19,Male,joseph.harris@university.ac.za,488.213.7859x692,Mechanical Engineering,3,Suspended,2023-02-19
+44,Cynthia Francis,Cynthia,Francis,2007-05-06,18,Other,cynthia.francis@university.ac.za,407.269.5223x402,Mechanical Engineering,2,Suspended,2025-07-12
+45,Denise Proctor,Denise,Proctor,2001-05-20,24,Female,denise.proctor@university.ac.za,+1-573-826-2211,Public Administration,4,Active,2020-01-19
+46,Angela Lloyd,Angela,Lloyd,2004-05-12,21,Female,angela.lloyd@university.ac.za,(362)915-9789x11585,Medicine,4,Inactive,2025-07-09
+47,Julie Rios,Julie,Rios,1994-02-11,32,Other,julie.rios@university.ac.za,909-503-0190,Electrical Engineering,4,Inactive,2022-08-06
+48,Matthew Barron,Matthew,Barron,2005-05-20,20,Male,matthew.barron@university.ac.za,001-412-863-8933x676,Law,2,Inactive,2023-12-15
+49,Michael Rodriguez,Michael,Rodriguez,2001-05-07,24,Male,michael.rodriguez@university.ac.za,+1-485-457-1482x3486,Marketing,4,Active,2024-04-30
+50,Heather Perez,Heather,Perez,2002-10-06,23,Other,heather.perez@university.ac.za,289.815.7870x529,Marketing,2,Inactive,2022-10-15
+51,Preston Maxwell,Preston,Maxwell,2001-11-22,24,Male,preston.maxwell@university.ac.za,(450)793-4671x58833,Law,4,Suspended,2020-10-12
+52,David Moss,David,Moss,1992-01-09,34,Male,david.moss@university.ac.za,498.838.4552,Psychology,3,Active,2024-06-27
+53,Brittney James,Brittney,James,2000-03-07,26,Female,brittney.james@university.ac.za,001-290-700-9552x106,Business Administration,2,Active,2022-06-30
+54,Ariel Bartlett,Ariel,Bartlett,2003-11-20,22,Female,ariel.bartlett@university.ac.za,+1-943-659-1561x473,Nursing,1,Active,2025-07-31
+55,Grace Cole,Grace,Cole,2002-07-06,23,Other,grace.cole@university.ac.za,(279)501-1307x00436,Information Technology,2,Suspended,2021-12-20
+56,Philip Smith,Philip,Smith,1995-07-15,30,Male,philip.smith@university.ac.za,609-469-9464x27360,Accounting,2,Suspended,2023-02-04
+57,Richard Owens,Richard,Owens,1992-12-29,33,Male,richard.owens@university.ac.za,(658)378-1303,Electrical Engineering,1,Active,2020-08-13
+58,Hannah Singh,Hannah,Singh,1998-03-21,28,Female,hannah.singh@university.ac.za,466-801-5943,Data Science,1,Active,2020-10-07
+59,Nicole Welch,Nicole,Welch,1990-12-09,35,Other,nicole.welch@university.ac.za,689-523-6627,Electrical Engineering,1,Active,2024-05-24
+60,Charles Owens,Charles,Owens,2002-06-19,23,Male,charles.owens@university.ac.za,5338596430,Computer Science,3,Active,2020-12-05
+61,Erin Jones,Erin,Jones,2005-09-20,20,Female,erin.jones@university.ac.za,(627)268-2343,Psychology,4,Active,2020-01-28
+62,Stephanie Fitzpatrick,Stephanie,Fitzpatrick,1995-11-21,30,Female,stephanie.fitzpatrick@university.ac.za,705-325-1223,Law,4,Active,2021-12-27
+63,Thomas Juarez,Thomas,Juarez,1992-07-09,33,Other,thomas.juarez@university.ac.za,2466841810,Mechanical Engineering,4,Active,2024-03-14
+64,Brian Hale,Brian,Hale,1992-03-01,34,Other,brian.hale@university.ac.za,710.261.4107x4727,Computer Science,3,Active,2023-01-26
+65,Susan Phillips,Susan,Phillips,1996-01-11,30,Female,susan.phillips@university.ac.za,+1-653-838-6217x2829,Mechanical Engineering,1,Inactive,2022-06-11
+66,Michael Howard,Michael,Howard,2002-05-20,23,Other,michael.howard@university.ac.za,001-505-360-5710x679,Human Resources,1,Active,2020-04-12
+67,Joe Lewis,Joe,Lewis,1996-03-22,30,Other,joe.lewis@university.ac.za,737.378.9051x12873,Mechanical Engineering,3,Active,2021-03-07
+68,Joseph Chase,Joseph,Chase,1999-11-17,26,Male,joseph.chase@university.ac.za,(832)304-1409,Marketing,4,Active,2020-10-01
+69,Jeremy Norman,Jeremy,Norman,1991-06-03,34,Male,jeremy.norman@university.ac.za,001-998-777-7377x397,Public Administration,1,Active,2023-07-19
+70,Mark Murphy,Mark,Murphy,1991-08-21,34,Other,mark.murphy@university.ac.za,(501)893-4981,Accounting,1,Active,2026-01-01
+71,Jennifer Miller,Jennifer,Miller,1992-10-18,33,Other,jennifer.miller@university.ac.za,297.894.2829x858,Civil Engineering,2,Suspended,2020-05-07
+72,Robin Chaney,Robin,Chaney,2003-07-14,22,Female,robin.chaney@university.ac.za,439-840-7937,Computer Science,2,Active,2024-05-09
+73,Brittany Harvey,Brittany,Harvey,1994-04-01,32,Other,brittany.harvey@university.ac.za,+1-837-409-2439,Law,3,Active,2022-10-27
+74,Anthony Flores,Anthony,Flores,2004-04-25,21,Male,anthony.flores@university.ac.za,+1-621-959-8976x5452,Nursing,4,Active,2022-05-06
+75,Matthew Thompson,Matthew,Thompson,1991-10-19,34,Other,matthew.thompson@university.ac.za,+1-758-360-1703x6433,Marketing,4,Active,2022-08-08
+76,Justin Webster,Justin,Webster,1999-03-19,27,Other,justin.webster@university.ac.za,(610)801-9683,Accounting,4,Inactive,2024-09-09
+77,Nicholas Cook,Nicholas,Cook,1998-09-22,27,Other,nicholas.cook@university.ac.za,818.661.5672x096,Mechanical Engineering,1,Inactive,2023-01-16
+78,John Weber,John,Weber,2009-01-08,17,Other,john.weber@university.ac.za,(658)938-7245x09401,Business Administration,4,Inactive,2025-04-23
+79,Cassandra Pena,Cassandra,Pena,2009-02-11,17,Female,cassandra.pena@university.ac.za,6829286464,Medicine,3,Active,2021-04-25
+80,Jamie Padilla,Jamie,Padilla,2004-09-26,21,Other,jamie.padilla@university.ac.za,+1-200-872-3077,Medicine,4,Active,2025-11-10
+81,Jerry Brown,Jerry,Brown,1997-06-09,28,Other,jerry.brown@university.ac.za,(413)710-4183x87418,Law,2,Inactive,2022-03-31
+82,Lisa Lopez,Lisa,Lopez,2001-09-25,24,Female,lisa.lopez@university.ac.za,(983)798-5157,Accounting,4,Active,2022-08-30
+83,Lisa Baird,Lisa,Baird,1995-06-16,30,Female,lisa.baird@university.ac.za,932.832.7282x2516,Marketing,2,Suspended,2022-02-03
+84,Maria Sweeney,Maria,Sweeney,2003-12-21,22,Female,maria.sweeney@university.ac.za,+1-362-851-1488x1395,Accounting,3,Active,2020-10-29
+85,Michael Lang,Michael,Lang,2007-08-31,18,Other,michael.lang@university.ac.za,(793)263-4055,Medicine,3,Active,2025-03-15
+86,Sheila Summers,Sheila,Summers,1998-10-13,27,Other,sheila.summers@university.ac.za,527-641-2842x309,Accounting,1,Inactive,2026-02-24
+87,Gabrielle Davis,Gabrielle,Davis,2000-11-20,25,Female,gabrielle.davis@university.ac.za,+1-710-615-4394,Medicine,3,Suspended,2024-07-08
+88,Michael Warner,Michael,Warner,1995-10-23,30,Male,michael.warner@university.ac.za,423-574-8354x424,Mechanical Engineering,2,Graduated,2022-02-05
+89,Christopher Callahan,Christopher,Callahan,1992-03-27,34,Other,christopher.callahan@university.ac.za,757-632-9080,Psychology,3,Active,2022-07-07
+90,Charles Romero,Charles,Romero,1999-08-11,26,Male,charles.romero@university.ac.za,001-359-968-6987x802,Civil Engineering,2,Active,2022-02-06
+91,Nathan Harrison,Nathan,Harrison,1997-09-25,28,Male,nathan.harrison@university.ac.za,001-855-819-9756,Accounting,3,Active,2025-07-07
+92,Brenda Hernandez,Brenda,Hernandez,2006-01-23,20,Other,brenda.hernandez@university.ac.za,6547527429,Business Administration,1,Active,2020-02-20
+93,Melissa Robertson,Melissa,Robertson,2001-12-30,24,Other,melissa.robertson@university.ac.za,207-530-0334x401,Medicine,3,Active,2022-09-26
+94,Robert Perkins,Robert,Perkins,1996-12-20,29,Other,robert.perkins@university.ac.za,707-222-3024x56695,Computer Science,1,Active,2022-08-16
+95,Bradley Cooper,Bradley,Cooper,2001-04-07,25,Other,bradley.cooper@university.ac.za,643-549-9005,Medicine,2,Active,2024-10-20
+96,Thomas Whitaker,Thomas,Whitaker,1990-12-06,35,Male,thomas.whitaker@university.ac.za,629-307-5263,Human Resources,4,Active,2020-04-18
+97,Kristin Hunt,Kristin,Hunt,1993-05-15,32,Female,kristin.hunt@university.ac.za,(571)389-8214x5215,Information Technology,2,Suspended,2025-09-26
+98,Matthew Wright,Matthew,Wright,2003-02-09,23,Other,matthew.wright@university.ac.za,001-682-578-0591,Human Resources,2,Active,2025-04-05
+99,Jennifer Durham,Jennifer,Durham,1991-03-02,35,Other,jennifer.durham@university.ac.za,001-572-795-7615,Mechanical Engineering,2,Graduated,2023-12-14
+100,Crystal Patrick,Crystal,Patrick,1991-08-24,34,Other,crystal.patrick@university.ac.za,591.376.9706x8308,Accounting,2,Suspended,2020-11-10
+101,Kathleen Russo,Kathleen,Russo,1997-10-08,28,Female,kathleen.russo@university.ac.za,2613827618,Public Administration,4,Active,2021-01-08
+102,Angela Bean,Angela,Bean,1993-03-03,33,Female,angela.bean@university.ac.za,+1-231-261-9230x4720,Human Resources,2,Active,2020-06-20
+103,Adam Brown,Adam,Brown,1998-06-12,27,Other,adam.brown@university.ac.za,001-667-726-9298x873,Information Technology,1,Active,2023-04-27
+104,Roger Marquez,Roger,Marquez,1995-03-07,31,Other,roger.marquez@university.ac.za,+1-795-525-4092,Law,2,Graduated,2022-04-22
+105,Teresa Morgan,Teresa,Morgan,1990-07-24,35,Female,teresa.morgan@university.ac.za,640.668.7245x987,Marketing,1,Graduated,2020-01-13
+106,Joseph Thomas,Joseph,Thomas,2002-06-25,23,Other,joseph.thomas@university.ac.za,815-426-8236,Psychology,1,Inactive,2020-12-11
+107,Anthony Elliott,Anthony,Elliott,1994-08-30,31,Other,anthony.elliott@university.ac.za,(629)683-1246x648,Human Resources,4,Active,2022-06-24
+108,Christopher Smith,Christopher,Smith,1995-01-25,31,Male,christopher.smith@university.ac.za,+1-654-384-2327x888,Information Technology,2,Active,2020-10-03
+109,Christopher Jackson,Christopher,Jackson,1990-08-27,35,Male,christopher.jackson@university.ac.za,(819)528-7990,Law,3,Suspended,2022-08-13
+110,Kathryn Watson,Kathryn,Watson,1996-10-18,29,Female,kathryn.watson@university.ac.za,246-793-2552,Law,3,Active,2022-05-07
+111,Ryan Miller,Ryan,Miller,2006-10-10,19,Other,ryan.miller@university.ac.za,+1-494-261-7905,Mechanical Engineering,4,Active,2021-10-06
+112,Timothy Ayers,Timothy,Ayers,1993-11-21,32,Other,timothy.ayers@university.ac.za,9962710072,Information Technology,1,Suspended,2024-01-25
+113,Dennis Mcguire,Dennis,Mcguire,2002-09-26,23,Male,dennis.mcguire@university.ac.za,558-655-7842x40228,Business Administration,1,Active,2023-05-24
+114,Patrick Abbott,Patrick,Abbott,1992-03-27,34,Male,patrick.abbott@university.ac.za,713-995-6808x926,Accounting,3,Active,2022-06-14
+115,Dawn Andersen,Dawn,Andersen,1994-11-22,31,Female,dawn.andersen@university.ac.za,316-948-1834x319,Electrical Engineering,1,Graduated,2021-11-26
+116,James Myers,James,Myers,2008-03-26,18,Male,james.myers@university.ac.za,(536)308-9811x68673,Electrical Engineering,3,Active,2023-08-09
+117,Rebecca Henderson,Rebecca,Henderson,1994-01-25,32,Female,rebecca.henderson@university.ac.za,+1-877-933-0399x1736,Civil Engineering,1,Suspended,2025-12-22
+118,Bobby Perez,Bobby,Perez,1997-05-25,28,Male,bobby.perez@university.ac.za,+1-837-323-0019x540,Human Resources,4,Suspended,2024-02-15
+119,Jimmy Bullock,Jimmy,Bullock,2005-08-31,20,Other,jimmy.bullock@university.ac.za,(485)539-9036x9116,Law,1,Active,2021-08-25
+120,Richard Reeves,Richard,Reeves,1994-08-27,31,Other,richard.reeves@university.ac.za,+1-961-778-1301x6987,Medicine,4,Active,2020-07-12
+121,Rebecca Ayala,Rebecca,Ayala,1996-12-18,29,Female,rebecca.ayala@university.ac.za,889.404.5039x21994,Nursing,4,Active,2021-01-25
+122,Claudia White,Claudia,White,2001-04-20,24,Other,claudia.white@university.ac.za,7632888358,Law,4,Active,2023-08-17
+123,Christine Davis,Christine,Davis,1995-09-05,30,Other,christine.davis@university.ac.za,001-369-289-5588x593,Nursing,4,Active,2022-05-26
+124,Michael Gross,Michael,Gross,2008-04-25,17,Other,michael.gross@university.ac.za,338.614.7311x106,Civil Engineering,4,Active,2024-05-13
+125,Stephen Morales,Stephen,Morales,1994-02-10,32,Male,stephen.morales@university.ac.za,001-840-352-0268,Information Technology,4,Active,2020-09-12
+126,Timothy Liu,Timothy,Liu,1993-02-04,33,Male,timothy.liu@university.ac.za,647.838.5349x869,Nursing,1,Active,2022-06-01
+127,Kevin King,Kevin,King,2008-07-04,17,Male,kevin.king@university.ac.za,730.914.4305x7020,Nursing,4,Active,2025-10-01
+128,Leah Lee,Leah,Lee,1992-07-03,33,Female,leah.lee@university.ac.za,001-599-767-0816x088,Accounting,3,Active,2025-10-24
+129,Robert Clark,Robert,Clark,2001-01-19,25,Male,robert.clark@university.ac.za,(496)878-4886x480,Nursing,1,Graduated,2022-10-13
+130,Lori Kelly,Lori,Kelly,1997-08-30,28,Female,lori.kelly@university.ac.za,6682476023,Accounting,4,Inactive,2021-02-06
+131,Timothy Green,Timothy,Green,1996-09-23,29,Male,timothy.green@university.ac.za,(737)914-4548,Human Resources,3,Active,2023-02-15
+132,Jake Torres,Jake,Torres,1991-01-27,35,Other,jake.torres@university.ac.za,+1-553-588-4593,Law,1,Suspended,2025-01-26
+133,Richard Harvey,Richard,Harvey,2005-03-17,21,Male,richard.harvey@university.ac.za,(696)646-7937,Information Technology,1,Active,2025-10-17
+134,Richard Barrett,Richard,Barrett,2001-12-29,24,Male,richard.barrett@university.ac.za,001-318-474-8914,Accounting,4,Suspended,2024-12-04
+135,Summer Martinez,Summer,Martinez,2006-10-12,19,Other,summer.martinez@university.ac.za,(996)955-1699,Psychology,2,Active,2023-01-11
+136,Rebecca Webster,Rebecca,Webster,2003-12-05,22,Female,rebecca.webster@university.ac.za,790-838-3937,Marketing,1,Suspended,2022-05-11
+137,Victoria Reid,Victoria,Reid,2003-03-03,23,Other,victoria.reid@university.ac.za,001-296-636-6687x572,Mechanical Engineering,1,Suspended,2025-05-27
+138,Ana Galvan,Ana,Galvan,2005-03-06,21,Female,ana.galvan@university.ac.za,790.797.4778x06142,Computer Science,2,Suspended,2023-05-08
+139,Gregory Walker,Gregory,Walker,1990-05-05,35,Male,gregory.walker@university.ac.za,+1-676-263-9460x0768,Medicine,4,Active,2024-02-26
+140,Kevin Robles,Kevin,Robles,2005-07-21,20,Other,kevin.robles@university.ac.za,+1-224-944-9956x6594,Law,3,Inactive,2022-12-24
+141,John Smith,John,Smith,1997-09-04,28,Male,john.smith@university.ac.za,324-422-4866,Medicine,4,Active,2022-07-13
+142,Felicia Miller,Felicia,Miller,1990-10-15,35,Other,felicia.miller@university.ac.za,801-900-9954x555,Data Science,3,Graduated,2022-05-14
+143,Kimberly Scott,Kimberly,Scott,1999-08-14,26,Female,kimberly.scott@university.ac.za,+1-949-624-9873x010,Marketing,3,Inactive,2023-07-10
+144,Shane Butler,Shane,Butler,1994-09-26,31,Male,shane.butler@university.ac.za,6457706455,Electrical Engineering,1,Active,2023-11-22
+145,Jamie James,Jamie,James,2000-12-17,25,Female,jamie.james@university.ac.za,587.286.8106,Public Administration,1,Inactive,2025-01-22
+146,Kelly Pace,Kelly,Pace,1996-11-01,29,Other,kelly.pace@university.ac.za,(518)694-7656x0782,Computer Science,2,Active,2024-02-03
+147,Annette Williams,Annette,Williams,1990-12-18,35,Female,annette.williams@university.ac.za,748.340.6297x42699,Data Science,3,Graduated,2021-10-30
+148,Laura Wilson,Laura,Wilson,2006-02-18,20,Female,laura.wilson@university.ac.za,581-702-3777,Civil Engineering,1,Suspended,2024-09-09
+149,Aaron Vazquez,Aaron,Vazquez,2003-11-27,22,Male,aaron.vazquez@university.ac.za,690-281-1832x20395,Nursing,2,Inactive,2024-11-23
+150,Anthony Lester,Anthony,Lester,1996-04-09,30,Male,anthony.lester@university.ac.za,(373)360-5540x67352,Data Science,3,Active,2020-04-18
+151,Jamie Nunez,Jamie,Nunez,2004-04-09,22,Other,jamie.nunez@university.ac.za,511-784-1872,Data Science,3,Inactive,2021-07-30
+152,Barbara Edwards,Barbara,Edwards,2006-06-22,19,Female,barbara.edwards@university.ac.za,(212)393-2295,Mechanical Engineering,1,Suspended,2023-02-24
+153,Ashley Lopez,Ashley,Lopez,1997-05-15,28,Female,ashley.lopez@university.ac.za,+1-860-564-3368x3966,Nursing,4,Graduated,2020-05-20
+154,David Hicks,David,Hicks,1996-03-09,30,Male,david.hicks@university.ac.za,+1-638-446-2532x9981,Electrical Engineering,4,Active,2023-10-15
+155,Teresa Mcmahon,Teresa,Mcmahon,2002-04-06,24,Female,teresa.mcmahon@university.ac.za,526.268.8885x0830,Electrical Engineering,2,Graduated,2022-05-22
+156,Edward Harris,Edward,Harris,1995-02-14,31,Male,edward.harris@university.ac.za,(562)498-1051,Marketing,4,Active,2021-01-18
+157,Paul Dominguez,Paul,Dominguez,2002-06-09,23,Male,paul.dominguez@university.ac.za,687-584-2918x024,Human Resources,1,Inactive,2025-05-14
+158,Claudia Mccormick,Claudia,Mccormick,2008-11-18,17,Other,claudia.mccormick@university.ac.za,+1-508-517-6295x0399,Accounting,1,Active,2023-11-29
+159,Tyler Stevenson,Tyler,Stevenson,2001-01-27,25,Male,tyler.stevenson@university.ac.za,695-806-4850x43056,Mechanical Engineering,3,Active,2020-02-25
+160,Carrie Hernandez,Carrie,Hernandez,1994-11-08,31,Other,carrie.hernandez@university.ac.za,+1-872-791-4762x0212,Public Administration,3,Active,2024-06-16
+161,Steven Dickerson,Steven,Dickerson,2006-12-03,19,Male,steven.dickerson@university.ac.za,916.200.7520x469,Accounting,4,Inactive,2025-04-17
+162,Aaron Wallace,Aaron,Wallace,2008-01-13,18,Other,aaron.wallace@university.ac.za,001-614-573-7077x786,Public Administration,2,Inactive,2021-06-14
+163,Laura Martin,Laura,Martin,2006-04-09,20,Female,laura.martin@university.ac.za,917.288.8288,Civil Engineering,3,Active,2020-03-07
+164,Sheila Schaefer,Sheila,Schaefer,2005-05-08,20,Female,sheila.schaefer@university.ac.za,+1-554-852-6913x9488,Civil Engineering,3,Active,2023-04-17
+165,Joshua Morton,Joshua,Morton,1995-12-13,30,Male,joshua.morton@university.ac.za,+1-512-575-5805,Nursing,3,Active,2024-02-23
+166,Travis Parker,Travis,Parker,1990-04-23,35,Other,travis.parker@university.ac.za,(731)842-6299,Mechanical Engineering,4,Suspended,2024-08-07
+167,Toni Alvarez,Toni,Alvarez,2008-09-17,17,Other,toni.alvarez@university.ac.za,(275)877-1001x4555,Information Technology,2,Active,2020-04-16
+168,Connie Kaufman,Connie,Kaufman,1999-12-18,26,Other,connie.kaufman@university.ac.za,(373)784-7715,Civil Engineering,4,Suspended,2024-04-06
+169,Susan Carter,Susan,Carter,2005-05-23,20,Female,susan.carter@university.ac.za,001-642-206-6299,Marketing,2,Inactive,2024-07-15
+170,Nicholas Hensley,Nicholas,Hensley,1993-08-23,32,Male,nicholas.hensley@university.ac.za,+1-705-591-0853x2384,Mechanical Engineering,1,Graduated,2020-02-15
+171,Wayne Goodman,Wayne,Goodman,1998-03-09,28,Male,wayne.goodman@university.ac.za,001-783-345-2194x184,Information Technology,1,Active,2021-03-12
+172,George Dorsey,George,Dorsey,1994-07-31,31,Other,george.dorsey@university.ac.za,001-710-603-2792x905,Nursing,3,Active,2025-08-22
+173,Kimberly Hunt,Kimberly,Hunt,2001-10-19,24,Female,kimberly.hunt@university.ac.za,792.713.7851x01826,Nursing,4,Suspended,2021-02-04
+174,Courtney Ramirez,Courtney,Ramirez,1996-05-23,29,Other,courtney.ramirez@university.ac.za,767.221.7248x993,Psychology,4,Suspended,2020-07-29
+175,Kim Chavez,Kim,Chavez,2006-12-24,19,Female,kim.chavez@university.ac.za,817.521.6098x80964,Medicine,2,Active,2023-08-12
+176,Shari Baker,Shari,Baker,2001-08-25,24,Female,shari.baker@university.ac.za,854.707.9981x5874,Information Technology,3,Graduated,2023-03-15
+177,Jennifer Roach,Jennifer,Roach,1992-05-18,33,Female,jennifer.roach@university.ac.za,206.486.2115,Psychology,3,Active,2025-09-10
+178,Joseph Bartlett,Joseph,Bartlett,2007-11-27,18,Male,joseph.bartlett@university.ac.za,446.733.5777x53547,Human Resources,3,Active,2020-04-22
+179,Jennifer Cross,Jennifer,Cross,2001-06-05,24,Other,jennifer.cross@university.ac.za,+1-609-687-6597x8114,Medicine,3,Active,2024-02-05
+180,Charles Wilson,Charles,Wilson,1994-09-02,31,Other,charles.wilson@university.ac.za,001-997-542-3720x791,Nursing,2,Suspended,2023-06-02
+181,Logan Olson,Logan,Olson,2005-03-23,21,Male,logan.olson@university.ac.za,567.205.2718x6023,Civil Engineering,3,Active,2024-01-06
+182,David Dunlap,David,Dunlap,1998-10-16,27,Male,david.dunlap@university.ac.za,+1-209-388-1041,Nursing,4,Inactive,2025-05-22
+183,Dorothy Hardy,Dorothy,Hardy,1991-08-12,34,Other,dorothy.hardy@university.ac.za,+1-757-545-1778x9910,Information Technology,1,Active,2020-07-14
+184,Michael Dorsey,Michael,Dorsey,1994-10-22,31,Male,michael.dorsey@university.ac.za,637.965.1960x87768,Public Administration,4,Active,2024-08-19
+185,Kathryn Mcpherson,Kathryn,Mcpherson,1994-01-24,32,Other,kathryn.mcpherson@university.ac.za,001-825-887-5631x424,Data Science,1,Active,2020-01-25
+186,Charles Palmer,Charles,Palmer,1996-12-31,29,Male,charles.palmer@university.ac.za,914-855-7652x700,Information Technology,2,Graduated,2025-09-20
+187,Margaret Cook,Margaret,Cook,1992-08-10,33,Other,margaret.cook@university.ac.za,9276052853,Law,3,Active,2021-12-01
+188,Austin Hall,Austin,Hall,1994-10-14,31,Male,austin.hall@university.ac.za,5086002083,Public Administration,1,Active,2025-10-21
+189,Samuel Davis,Samuel,Davis,1999-12-15,26,Other,samuel.davis@university.ac.za,815.730.5907x7680,Public Administration,2,Active,2023-05-29
+190,Brenda Marsh,Brenda,Marsh,2002-03-05,24,Female,brenda.marsh@university.ac.za,001-877-713-4483,Psychology,1,Suspended,2021-03-05
+191,John Marshall,John,Marshall,1992-12-26,33,Male,john.marshall@university.ac.za,944-981-5503,Civil Engineering,1,Suspended,2025-08-05
+192,Tiffany Marshall,Tiffany,Marshall,1990-08-17,35,Female,tiffany.marshall@university.ac.za,9082614020,Mechanical Engineering,3,Active,2022-08-19
+193,Terry Barajas,Terry,Barajas,2007-06-14,18,Male,terry.barajas@university.ac.za,966-656-1441x00734,Law,1,Active,2021-04-19
+194,Stacey Edwards,Stacey,Edwards,2007-01-13,19,Other,stacey.edwards@university.ac.za,+1-842-357-5494,Data Science,1,Active,2026-03-07
+195,Michele Rodriguez,Michele,Rodriguez,2002-02-17,24,Other,michele.rodriguez@university.ac.za,+1-850-779-2345x7585,Medicine,2,Graduated,2021-09-23
+196,Megan Ballard,Megan,Ballard,1999-02-07,27,Female,megan.ballard@university.ac.za,+1-496-931-9916x639,Law,3,Active,2025-05-16
+197,Regina Smith,Regina,Smith,2000-01-16,26,Female,regina.smith@university.ac.za,(362)941-6712x58388,Computer Science,3,Graduated,2023-05-16
+198,Amy Webb,Amy,Webb,1993-12-03,32,Other,amy.webb@university.ac.za,+1-450-662-3252x8616,Nursing,2,Inactive,2023-06-25
+199,Christine Bates,Christine,Bates,2005-09-08,20,Female,christine.bates@university.ac.za,001-363-642-9570x616,Electrical Engineering,4,Graduated,2020-12-22
+200,Olivia Thomas,Olivia,Thomas,2005-11-17,20,Other,olivia.thomas@university.ac.za,244-677-4097,Electrical Engineering,1,Inactive,2020-09-02
+201,Michael Green,Michael,Green,2007-03-01,19,Male,michael.green@university.ac.za,668-574-7190,Computer Science,3,Active,2021-05-27
+202,Tony Mendoza,Tony,Mendoza,2008-05-19,17,Other,tony.mendoza@university.ac.za,939.442.5086x89063,Accounting,3,Suspended,2022-05-30
+203,Debra Gonzales,Debra,Gonzales,1994-09-20,31,Other,debra.gonzales@university.ac.za,959-735-9825x50780,Electrical Engineering,1,Active,2021-06-12
+204,Jordan Brown,Jordan,Brown,2008-11-03,17,Male,jordan.brown@university.ac.za,(431)878-9971,Electrical Engineering,1,Suspended,2024-05-16
+205,Jason Alexander,Jason,Alexander,2006-08-23,19,Male,jason.alexander@university.ac.za,(658)545-1305,Civil Engineering,1,Active,2024-02-21
+206,Ronald Bishop,Ronald,Bishop,1996-04-29,29,Male,ronald.bishop@university.ac.za,813.358.7684,Computer Science,1,Graduated,2026-02-11
+207,David Cannon,David,Cannon,1994-02-23,32,Other,david.cannon@university.ac.za,287-316-0304,Data Science,3,Suspended,2024-10-12
+208,Robert Walker,Robert,Walker,2005-12-16,20,Male,robert.walker@university.ac.za,001-281-742-6329x865,Nursing,1,Active,2026-01-30
+209,Robert Downs,Robert,Downs,1994-06-12,31,Male,robert.downs@university.ac.za,462.923.3822,Accounting,1,Suspended,2022-06-15
+210,Nathaniel Kelley,Nathaniel,Kelley,2001-08-24,24,Other,nathaniel.kelley@university.ac.za,001-495-360-4031,Mechanical Engineering,1,Graduated,2021-06-08
+211,Betty Turner,Betty,Turner,2001-06-21,24,Other,betty.turner@university.ac.za,001-583-639-4949x826,Civil Engineering,3,Active,2021-10-16
+212,Thomas Johnson,Thomas,Johnson,2008-04-16,17,Male,thomas.johnson@university.ac.za,(939)902-4468x9809,Computer Science,1,Graduated,2024-10-08
+213,Vanessa Douglas,Vanessa,Douglas,2003-08-07,22,Other,vanessa.douglas@university.ac.za,001-502-794-2781x011,Electrical Engineering,2,Graduated,2022-12-18
+214,Zachary Hill,Zachary,Hill,1999-06-23,26,Male,zachary.hill@university.ac.za,703-774-2484,Marketing,2,Active,2023-12-30
+215,Nancy Fernandez,Nancy,Fernandez,2004-09-23,21,Female,nancy.fernandez@university.ac.za,776-402-3789x60613,Mechanical Engineering,2,Active,2023-08-03
+216,Kristen Flores,Kristen,Flores,1993-08-13,32,Female,kristen.flores@university.ac.za,+1-877-909-4203x0459,Law,3,Graduated,2021-09-09
+217,John Valdez,John,Valdez,1999-10-15,26,Male,john.valdez@university.ac.za,9014242363,Nursing,3,Graduated,2022-04-18
+218,Roberto Patrick,Roberto,Patrick,2000-01-09,26,Other,roberto.patrick@university.ac.za,001-786-515-4404x397,Human Resources,3,Inactive,2024-03-03
+219,Patrick Mcgrath,Patrick,Mcgrath,2005-03-31,21,Other,patrick.mcgrath@university.ac.za,5067779957,Business Administration,1,Active,2023-05-13
+220,Ryan Ramsey,Ryan,Ramsey,1995-05-05,30,Other,ryan.ramsey@university.ac.za,761-832-0081x21711,Business Administration,1,Active,2024-08-18
+221,Jessica Mitchell,Jessica,Mitchell,1993-07-23,32,Female,jessica.mitchell@university.ac.za,001-876-501-6980x168,Accounting,2,Suspended,2026-02-21
+222,Robert Cross,Robert,Cross,2004-09-17,21,Male,robert.cross@university.ac.za,+1-599-615-2568,Public Administration,4,Active,2025-03-28
+223,Kevin Brown,Kevin,Brown,2004-09-27,21,Male,kevin.brown@university.ac.za,305.850.3030x28504,Data Science,1,Inactive,2023-04-21
+224,Andrew Boyd,Andrew,Boyd,1996-03-21,30,Other,andrew.boyd@university.ac.za,(717)453-7428,Law,2,Suspended,2026-04-07
+225,Michael Martinez,Michael,Martinez,1997-09-20,28,Male,michael.martinez@university.ac.za,(985)435-4950,Public Administration,4,Active,2020-10-18
+226,Katherine Matthews,Katherine,Matthews,2006-12-03,19,Female,katherine.matthews@university.ac.za,(815)365-8111,Information Technology,4,Active,2025-03-30
+227,Renee Cole,Renee,Cole,1994-02-01,32,Female,renee.cole@university.ac.za,(913)519-8794x163,Mechanical Engineering,3,Active,2022-07-28
+228,Christine Ferguson,Christine,Ferguson,2007-06-07,18,Female,christine.ferguson@university.ac.za,8225388590,Law,2,Active,2022-09-13
+229,Nicholas Diaz,Nicholas,Diaz,1993-01-22,33,Male,nicholas.diaz@university.ac.za,001-394-788-4973x163,Mechanical Engineering,3,Active,2025-04-19
+230,Daniel Johnson,Daniel,Johnson,1998-02-23,28,Male,daniel.johnson@university.ac.za,844-365-0073,Business Administration,2,Active,2023-03-27
+231,Lori Johnson,Lori,Johnson,1994-03-31,32,Other,lori.johnson@university.ac.za,+1-626-434-5562x4834,Human Resources,2,Active,2021-02-12
+232,Nicole Fields,Nicole,Fields,2005-12-27,20,Female,nicole.fields@university.ac.za,(673)360-8157x715,Data Science,1,Active,2023-10-30
+233,Sarah Davis,Sarah,Davis,1994-04-05,32,Female,sarah.davis@university.ac.za,+1-449-636-3662x157,Law,3,Active,2023-05-21
+234,Christopher Drake,Christopher,Drake,1997-09-22,28,Other,christopher.drake@university.ac.za,805.397.1603,Business Administration,3,Active,2020-02-23
+235,Melvin Brown,Melvin,Brown,1994-08-28,31,Male,melvin.brown@university.ac.za,001-788-678-1493,Business Administration,1,Graduated,2024-05-25
+236,Calvin Carlson,Calvin,Carlson,2005-06-17,20,Male,calvin.carlson@university.ac.za,+1-818-316-9291,Psychology,4,Suspended,2026-03-25
+237,Megan Ramirez,Megan,Ramirez,2006-07-21,19,Female,megan.ramirez@university.ac.za,956.638.4563,Accounting,2,Active,2021-12-14
+238,Christine Mendoza,Christine,Mendoza,2001-03-02,25,Female,christine.mendoza@university.ac.za,231.589.1141x02552,Public Administration,4,Active,2024-10-30
+239,Jessica Jones,Jessica,Jones,1994-10-06,31,Other,jessica.jones@university.ac.za,(791)900-0399,Business Administration,4,Active,2025-09-14
+240,Frank Jackson,Frank,Jackson,1993-01-24,33,Other,frank.jackson@university.ac.za,+1-479-813-7407,Data Science,2,Active,2025-07-29
+241,Amy Hopkins,Amy,Hopkins,1998-04-13,28,Female,amy.hopkins@university.ac.za,474-416-0910,Public Administration,3,Active,2021-11-30
+242,Suzanne Watson,Suzanne,Watson,2005-10-15,20,Female,suzanne.watson@university.ac.za,503-755-9606x65523,Computer Science,1,Active,2025-04-26
+243,Joshua Edwards,Joshua,Edwards,2004-02-08,22,Male,joshua.edwards@university.ac.za,(743)978-2005,Data Science,1,Inactive,2024-12-29
+244,Sara Henderson,Sara,Henderson,1991-10-04,34,Female,sara.henderson@university.ac.za,628-378-4013x18955,Mechanical Engineering,2,Active,2023-12-04
+245,Priscilla Fisher,Priscilla,Fisher,1998-10-12,27,Other,priscilla.fisher@university.ac.za,678-878-6715x448,Human Resources,4,Active,2023-06-08
+246,Carlos Bush,Carlos,Bush,1991-11-24,34,Male,carlos.bush@university.ac.za,374-786-9326,Computer Science,4,Active,2022-08-06
+247,Frank Montoya,Frank,Montoya,1995-04-27,30,Male,frank.montoya@university.ac.za,001-241-999-0592x698,Civil Engineering,3,Suspended,2020-06-15
+248,Heather Fischer,Heather,Fischer,1992-01-25,34,Female,heather.fischer@university.ac.za,852.793.8503,Business Administration,2,Inactive,2024-02-27
+249,Angela Avery,Angela,Avery,2002-06-26,23,Other,angela.avery@university.ac.za,001-681-680-8959x900,Public Administration,2,Active,2023-01-21
+250,Cheryl Andrews,Cheryl,Andrews,1994-12-31,31,Female,cheryl.andrews@university.ac.za,001-517-615-5038x215,Mechanical Engineering,4,Active,2025-11-07
+251,Christine Jones,Christine,Jones,1998-06-15,27,Female,christine.jones@university.ac.za,001-975-236-6137x759,Electrical Engineering,4,Active,2021-03-06
+252,Richard Coleman,Richard,Coleman,2007-10-07,18,Male,richard.coleman@university.ac.za,+1-969-720-1666x160,Mechanical Engineering,3,Active,2024-07-09
+253,Trevor Hendrix,Trevor,Hendrix,2006-03-15,20,Male,trevor.hendrix@university.ac.za,634-273-6370x9221,Psychology,3,Active,2025-10-06
+254,Natalie Archer,Natalie,Archer,2007-07-21,18,Other,natalie.archer@university.ac.za,886.577.9113x5810,Accounting,1,Active,2023-12-15
+255,Amy Nelson,Amy,Nelson,1991-02-04,35,Other,amy.nelson@university.ac.za,699.773.9357x0484,Law,1,Active,2025-01-09
+256,Matthew Murphy,Matthew,Murphy,1995-12-05,30,Other,matthew.murphy@university.ac.za,+1-363-939-1374x5266,Data Science,3,Active,2021-01-15
+257,Robert Martin,Robert,Martin,1995-10-24,30,Male,robert.martin@university.ac.za,(385)554-7163,Medicine,1,Graduated,2023-04-16
+258,Brenda Jackson,Brenda,Jackson,2000-09-14,25,Female,brenda.jackson@university.ac.za,751.617.4663x585,Medicine,3,Active,2024-02-05
+259,Melissa Johnson,Melissa,Johnson,2004-03-14,22,Female,melissa.johnson@university.ac.za,238-273-3094x5515,Marketing,2,Inactive,2020-01-09
+260,Donald Larson,Donald,Larson,1997-06-28,28,Male,donald.larson@university.ac.za,(360)442-7810,Law,4,Active,2023-07-01
+261,Charles Robinson,Charles,Robinson,1995-02-03,31,Male,charles.robinson@university.ac.za,+1-980-224-5148x3073,Psychology,1,Active,2020-08-02
+262,Kelsey Cardenas,Kelsey,Cardenas,1990-11-27,35,Other,kelsey.cardenas@university.ac.za,2818963852,Medicine,4,Graduated,2021-06-06
+263,Ryan Mathews,Ryan,Mathews,2000-09-15,25,Male,ryan.mathews@university.ac.za,(248)889-1229x35813,Nursing,2,Graduated,2023-11-27
+264,Ryan Gilmore,Ryan,Gilmore,2006-03-11,20,Male,ryan.gilmore@university.ac.za,(943)743-7594x64036,Business Administration,2,Active,2023-03-26
+265,Ryan Lane,Ryan,Lane,1991-12-15,34,Male,ryan.lane@university.ac.za,(830)571-7353,Public Administration,1,Inactive,2023-09-28
+266,Jennifer Acevedo,Jennifer,Acevedo,2002-02-28,24,Other,jennifer.acevedo@university.ac.za,+1-494-384-1352x000,Nursing,3,Active,2024-03-05
+267,Christopher Anderson,Christopher,Anderson,1998-07-05,27,Male,christopher.anderson@university.ac.za,+1-551-863-3477x447,Human Resources,1,Suspended,2020-06-11
+268,Justin Bryant,Justin,Bryant,2006-01-11,20,Other,justin.bryant@university.ac.za,573.603.3784x30242,Accounting,3,Active,2026-03-20
+269,Kristin Reyes,Kristin,Reyes,2003-04-18,22,Other,kristin.reyes@university.ac.za,(843)334-1086,Nursing,1,Inactive,2022-05-08
+270,Robert Smith,Robert,Smith,1998-01-16,28,Other,robert.smith@university.ac.za,476-634-1663,Data Science,1,Active,2021-04-05
+271,Elizabeth Jacobs,Elizabeth,Jacobs,2001-02-07,25,Female,elizabeth.jacobs@university.ac.za,(771)730-6238,Medicine,3,Active,2021-11-17
+272,Leroy Levine,Leroy,Levine,2003-05-25,22,Other,leroy.levine@university.ac.za,(275)263-8489x54539,Data Science,2,Active,2020-07-13
+273,Bonnie Gutierrez,Bonnie,Gutierrez,2004-06-03,21,Other,bonnie.gutierrez@university.ac.za,(314)623-7757x468,Marketing,4,Active,2022-06-28
+274,Daniel Cameron,Daniel,Cameron,2003-02-12,23,Male,daniel.cameron@university.ac.za,709-950-8912,Civil Engineering,3,Active,2023-03-01
+275,Lori Barber,Lori,Barber,1994-07-19,31,Female,lori.barber@university.ac.za,+1-758-923-4110x951,Data Science,4,Active,2024-12-01
+276,Jeffrey Hardy,Jeffrey,Hardy,1993-06-15,32,Other,jeffrey.hardy@university.ac.za,967.234.2719,Psychology,2,Active,2024-06-08
+277,Erica Young,Erica,Young,2003-06-19,22,Female,erica.young@university.ac.za,001-425-637-1734x604,Information Technology,2,Suspended,2022-08-21
+278,Alan Rice,Alan,Rice,1998-01-03,28,Male,alan.rice@university.ac.za,405.481.7365x8976,Business Administration,2,Active,2025-05-02
+279,Brittany Deleon,Brittany,Deleon,1993-11-21,32,Female,brittany.deleon@university.ac.za,(732)520-9273x1591,Nursing,4,Inactive,2025-10-20
+280,Jennifer Powell,Jennifer,Powell,1994-05-07,31,Female,jennifer.powell@university.ac.za,647.993.3175,Marketing,4,Graduated,2025-02-27
+281,Edwin Carr,Edwin,Carr,2002-11-18,23,Male,edwin.carr@university.ac.za,(533)658-5177,Nursing,2,Active,2022-03-11
+282,William Butler,William,Butler,1990-09-17,35,Male,william.butler@university.ac.za,(516)629-9195x3629,Electrical Engineering,3,Active,2020-01-27
+283,Colleen Vega,Colleen,Vega,1990-10-11,35,Female,colleen.vega@university.ac.za,378.424.1120,Law,3,Active,2022-08-12
+284,Maria Brown,Maria,Brown,2005-03-06,21,Other,maria.brown@university.ac.za,565-948-9147x72923,Mechanical Engineering,3,Inactive,2025-04-21
+285,John Benson,John,Benson,1992-12-30,33,Male,john.benson@university.ac.za,237.412.0704x347,Mechanical Engineering,1,Graduated,2022-01-08
+286,Lindsay Palmer,Lindsay,Palmer,1996-11-01,29,Female,lindsay.palmer@university.ac.za,989.659.7913x73164,Psychology,2,Active,2024-04-01
+287,Ronald Wall,Ronald,Wall,1992-10-17,33,Male,ronald.wall@university.ac.za,552-965-9791x1916,Marketing,1,Active,2025-09-25
+288,Patricia Robinson,Patricia,Robinson,1991-08-01,34,Other,patricia.robinson@university.ac.za,433-573-4494x33550,Psychology,2,Suspended,2021-09-14
+289,Cynthia Weiss,Cynthia,Weiss,2007-04-06,19,Other,cynthia.weiss@university.ac.za,948-889-6506x8224,Electrical Engineering,3,Graduated,2023-10-19
+290,Christina Martin,Christina,Martin,1992-08-09,33,Female,christina.martin@university.ac.za,+1-338-484-0801,Psychology,2,Graduated,2025-12-07
+291,Jamie Moore,Jamie,Moore,2003-06-08,22,Female,jamie.moore@university.ac.za,438-921-5323x658,Information Technology,3,Graduated,2021-07-07
+292,Devon Contreras,Devon,Contreras,1990-10-15,35,Male,devon.contreras@university.ac.za,886-993-4034x581,Medicine,2,Inactive,2021-03-11
+293,Thomas Lopez,Thomas,Lopez,1996-01-25,30,Male,thomas.lopez@university.ac.za,+1-441-645-9309,Nursing,1,Active,2022-09-04
+294,Jason Pennington,Jason,Pennington,1991-10-15,34,Male,jason.pennington@university.ac.za,+1-867-982-0888,Public Administration,3,Suspended,2020-05-24
+295,Daniel Powell,Daniel,Powell,1991-03-23,35,Male,daniel.powell@university.ac.za,346-463-1091,Human Resources,4,Active,2024-01-16
+296,Oscar Bernard,Oscar,Bernard,1994-02-20,32,Other,oscar.bernard@university.ac.za,357.855.0534x7761,Mechanical Engineering,4,Active,2022-07-08
+297,Jesus Miller,Jesus,Miller,1997-02-26,29,Other,jesus.miller@university.ac.za,730.799.7220x37048,Human Resources,1,Active,2022-05-07
+298,Andrew Wood,Andrew,Wood,2000-08-18,25,Male,andrew.wood@university.ac.za,(241)795-3171x144,Law,1,Inactive,2022-03-14
+299,Dana Day,Dana,Day,1993-10-03,32,Other,dana.day@university.ac.za,972.691.1679,Marketing,3,Active,2024-08-17
+300,Renee Gutierrez,Renee,Gutierrez,2008-03-19,18,Other,renee.gutierrez@university.ac.za,235-369-9266,Business Administration,1,Active,2023-04-28
+301,Jennifer Richardson,Jennifer,Richardson,1995-01-13,31,Female,jennifer.richardson@university.ac.za,508.654.3044,Nursing,2,Inactive,2025-07-09
+302,Justin Lamb,Justin,Lamb,2003-07-27,22,Male,justin.lamb@university.ac.za,001-358-995-1519x305,Nursing,4,Active,2022-04-05
+303,Cynthia Robertson,Cynthia,Robertson,2001-06-09,24,Female,cynthia.robertson@university.ac.za,425.354.3908x80860,Accounting,2,Active,2020-05-21
+304,Kevin Norman,Kevin,Norman,2001-12-06,24,Male,kevin.norman@university.ac.za,304.866.7793x4071,Information Technology,2,Suspended,2024-03-23
+305,Michele Hernandez,Michele,Hernandez,2008-04-27,17,Female,michele.hernandez@university.ac.za,848-987-2988x137,Law,4,Active,2022-05-25
+306,Danielle Haney,Danielle,Haney,2007-03-06,19,Female,danielle.haney@university.ac.za,669-942-0693x168,Business Administration,2,Active,2022-03-06
+307,Emily Davis,Emily,Davis,2008-05-27,17,Other,emily.davis@university.ac.za,927-528-8995,Psychology,3,Active,2023-05-04
+308,Jeffrey Parsons,Jeffrey,Parsons,1993-08-06,32,Male,jeffrey.parsons@university.ac.za,9878745835,Medicine,3,Graduated,2023-04-05
+309,Keith Freeman,Keith,Freeman,2008-04-30,17,Male,keith.freeman@university.ac.za,491.669.7089x12700,Mechanical Engineering,4,Inactive,2024-04-01
+310,Charlotte Brennan,Charlotte,Brennan,2000-01-28,26,Other,charlotte.brennan@university.ac.za,4575041797,Data Science,1,Suspended,2023-04-22
+311,Anne Hall,Anne,Hall,1999-06-18,26,Female,anne.hall@university.ac.za,(845)860-1921x380,Law,2,Active,2025-02-03
+312,Erin Smith,Erin,Smith,2002-11-30,23,Other,erin.smith@university.ac.za,001-672-620-3557x825,Computer Science,4,Active,2025-05-16
+313,Betty Howe,Betty,Howe,2001-02-22,25,Female,betty.howe@university.ac.za,001-589-777-5209x751,Psychology,3,Inactive,2025-05-10
+314,Gabriel Patton,Gabriel,Patton,1997-05-05,28,Male,gabriel.patton@university.ac.za,767-492-5195x8535,Civil Engineering,1,Inactive,2020-02-25
+315,Christian Thomas,Christian,Thomas,2004-04-19,21,Male,christian.thomas@university.ac.za,+1-836-578-1356,Accounting,2,Active,2020-07-15
+316,Antonio Navarro,Antonio,Navarro,2004-03-19,22,Male,antonio.navarro@university.ac.za,795-583-0365x48982,Information Technology,4,Active,2021-05-18
+317,John Meyer,John,Meyer,2007-10-23,18,Male,john.meyer@university.ac.za,+1-459-763-8770x414,Public Administration,1,Graduated,2023-09-01
+318,Lisa Brown,Lisa,Brown,1993-08-07,32,Other,lisa.brown@university.ac.za,001-342-258-7992x390,Mechanical Engineering,2,Active,2025-04-23
+319,Elizabeth Franklin,Elizabeth,Franklin,1997-08-01,28,Female,elizabeth.franklin@university.ac.za,001-555-908-2627x848,Business Administration,2,Active,2020-05-21
+320,Ashley Hobbs,Ashley,Hobbs,1999-05-07,26,Female,ashley.hobbs@university.ac.za,001-501-385-4789x632,Electrical Engineering,1,Graduated,2020-01-02
+321,Tara Foster,Tara,Foster,1994-02-16,32,Female,tara.foster@university.ac.za,613-210-3526x03859,Electrical Engineering,4,Inactive,2021-07-27
+322,John Zavala,John,Zavala,2007-12-02,18,Male,john.zavala@university.ac.za,934.205.3005x345,Public Administration,3,Graduated,2021-04-29
+323,Stephanie Collins,Stephanie,Collins,1994-06-02,31,Female,stephanie.collins@university.ac.za,001-794-729-3543,Medicine,4,Active,2020-12-22
+324,Sean Owens,Sean,Owens,1996-12-14,29,Male,sean.owens@university.ac.za,5535738021,Human Resources,1,Inactive,2021-10-02
+325,Rose Johnson,Rose,Johnson,2008-12-01,17,Female,rose.johnson@university.ac.za,627.797.1240x70770,Psychology,2,Active,2020-10-02
+326,Nicole Gomez,Nicole,Gomez,1998-03-23,28,Other,nicole.gomez@university.ac.za,(439)394-3437,Human Resources,3,Active,2024-04-29
+327,Barbara Burns,Barbara,Burns,1990-12-11,35,Female,barbara.burns@university.ac.za,001-975-701-1969x240,Law,4,Suspended,2022-01-21
+328,Carolyn Stephens,Carolyn,Stephens,1991-12-01,34,Female,carolyn.stephens@university.ac.za,(583)494-7336x671,Law,1,Suspended,2021-08-19
+329,David Davis,David,Davis,2003-06-09,22,Male,david.davis@university.ac.za,653.888.9639,Data Science,1,Suspended,2021-06-09
+330,Amanda Kaufman,Amanda,Kaufman,1999-01-07,27,Female,amanda.kaufman@university.ac.za,545-311-0349,Information Technology,1,Active,2023-08-05
+331,Margaret Patterson,Margaret,Patterson,2009-03-11,17,Female,margaret.patterson@university.ac.za,834.637.2368x4548,Electrical Engineering,2,Active,2020-05-31
+332,Jonathan Vang,Jonathan,Vang,1993-01-09,33,Male,jonathan.vang@university.ac.za,001-975-897-9410,Computer Science,4,Graduated,2024-09-06
+333,Ryan Quinn,Ryan,Quinn,2003-05-26,22,Male,ryan.quinn@university.ac.za,436-467-5369,Psychology,2,Active,2026-02-14
+334,Laura Miller,Laura,Miller,1997-10-24,28,Female,laura.miller@university.ac.za,001-836-742-3571x188,Human Resources,3,Suspended,2021-12-29
+335,Justin Farmer,Justin,Farmer,2002-10-18,23,Male,justin.farmer@university.ac.za,(722)708-4588x506,Business Administration,1,Active,2026-01-28
+336,Riley Smith,Riley,Smith,2009-04-02,17,Other,riley.smith@university.ac.za,+1-224-982-0519x2017,Mechanical Engineering,2,Active,2021-02-26
+337,Shane Pearson,Shane,Pearson,2003-05-11,22,Male,shane.pearson@university.ac.za,(630)328-9388,Data Science,3,Inactive,2024-06-12
+338,Andrew Kennedy,Andrew,Kennedy,2001-03-14,25,Male,andrew.kennedy@university.ac.za,001-502-397-3327x140,Psychology,2,Active,2022-04-01
+339,Catherine Mays,Catherine,Mays,2006-11-15,19,Female,catherine.mays@university.ac.za,912.754.3502,Nursing,1,Active,2022-08-15
+340,Nathaniel Perez,Nathaniel,Perez,1997-05-08,28,Male,nathaniel.perez@university.ac.za,(818)623-3918,Human Resources,1,Suspended,2021-10-23
+341,Adam Pitts,Adam,Pitts,2009-03-12,17,Other,adam.pitts@university.ac.za,277-590-5676,Electrical Engineering,4,Inactive,2022-04-02
+342,Anthony Valdez,Anthony,Valdez,2001-03-25,25,Other,anthony.valdez@university.ac.za,001-828-277-9367x860,Nursing,3,Inactive,2025-05-06
+343,Paul Beck,Paul,Beck,1995-03-19,31,Male,paul.beck@university.ac.za,403-222-2960x53446,Data Science,2,Graduated,2021-02-19
+344,Oscar Stewart,Oscar,Stewart,2001-05-21,24,Other,oscar.stewart@university.ac.za,585.721.4130,Computer Science,1,Inactive,2022-03-30
+345,James Reyes,James,Reyes,2003-03-18,23,Other,james.reyes@university.ac.za,001-286-549-6456x269,Marketing,1,Inactive,2022-07-01
+346,Kara Carrillo,Kara,Carrillo,2000-12-19,25,Female,kara.carrillo@university.ac.za,606.997.8662,Public Administration,1,Active,2022-12-08
+347,Melissa Rogers,Melissa,Rogers,2002-01-05,24,Female,melissa.rogers@university.ac.za,(377)494-7783x872,Business Administration,2,Active,2025-07-24
+348,Miguel Roberts,Miguel,Roberts,1997-01-27,29,Male,miguel.roberts@university.ac.za,(319)399-6921x9691,Law,3,Graduated,2026-03-29
+349,Andrew Turner,Andrew,Turner,2004-02-04,22,Male,andrew.turner@university.ac.za,556.924.2868x660,Information Technology,3,Inactive,2021-10-22
+350,Robert White,Robert,White,1990-09-04,35,Other,robert.white@university.ac.za,969-217-7166x0823,Medicine,4,Suspended,2025-06-19
+351,Tracey Howell,Tracey,Howell,2007-07-08,18,Other,tracey.howell@university.ac.za,001-742-831-1346x743,Public Administration,1,Active,2025-02-10
+352,James Morton,James,Morton,1990-11-16,35,Male,james.morton@university.ac.za,001-342-362-9254x520,Computer Science,1,Active,2022-04-04
+353,Amanda Russo,Amanda,Russo,1996-11-13,29,Other,amanda.russo@university.ac.za,(945)421-9467,Accounting,3,Graduated,2021-10-22
+354,Nicole Adams,Nicole,Adams,2001-09-21,24,Other,nicole.adams@university.ac.za,+1-803-544-8707,Medicine,4,Active,2021-06-10
+355,Michelle Sexton,Michelle,Sexton,2007-04-06,19,Female,michelle.sexton@university.ac.za,261-948-7538,Business Administration,3,Active,2025-12-30
+356,Denise White,Denise,White,2005-02-23,21,Other,denise.white@university.ac.za,568-610-8854x825,Law,4,Suspended,2025-04-10
+357,Bruce Hurley,Bruce,Hurley,2000-09-18,25,Male,bruce.hurley@university.ac.za,(536)555-2360,Data Science,1,Graduated,2020-11-27
+358,William Townsend,William,Townsend,2008-05-17,17,Other,william.townsend@university.ac.za,001-986-207-5073x392,Accounting,2,Active,2024-06-02
+359,Christian Horn,Christian,Horn,1996-04-24,29,Male,christian.horn@university.ac.za,4894953680,Business Administration,4,Active,2021-10-22
+360,Laura Stevenson,Laura,Stevenson,1990-04-14,36,Female,laura.stevenson@university.ac.za,001-563-581-8011x723,Marketing,1,Active,2023-02-08
+361,Grace Ortega,Grace,Ortega,1997-01-17,29,Female,grace.ortega@university.ac.za,+1-866-351-0726x3255,Information Technology,4,Active,2025-09-14
+362,Courtney Wise,Courtney,Wise,2006-05-19,19,Female,courtney.wise@university.ac.za,256.399.2034x416,Business Administration,3,Active,2022-03-18
+363,Chad Trujillo,Chad,Trujillo,2006-02-14,20,Male,chad.trujillo@university.ac.za,+1-329-499-3499x264,Law,4,Graduated,2021-04-26
+364,Devon Jennings,Devon,Jennings,1994-10-25,31,Male,devon.jennings@university.ac.za,416.222.1570,Psychology,2,Active,2026-01-20
+365,Travis Bass,Travis,Bass,2007-02-13,19,Male,travis.bass@university.ac.za,872-665-6449,Business Administration,4,Active,2024-11-28
+366,James Edwards,James,Edwards,1997-07-08,28,Male,james.edwards@university.ac.za,528-460-7006x8121,Civil Engineering,2,Suspended,2022-09-23
+367,Kimberly Perry,Kimberly,Perry,2003-10-18,22,Female,kimberly.perry@university.ac.za,(298)846-6598,Computer Science,3,Graduated,2025-06-03
+368,Sara Lopez,Sara,Lopez,1997-01-08,29,Female,sara.lopez@university.ac.za,606.445.0036,Mechanical Engineering,1,Graduated,2025-03-06
+369,Maria Chavez,Maria,Chavez,2007-05-30,18,Female,maria.chavez@university.ac.za,618-563-3852,Computer Science,4,Active,2020-07-11
+370,Laura Watts,Laura,Watts,1991-03-05,35,Female,laura.watts@university.ac.za,704.944.4794x8838,Accounting,1,Graduated,2022-05-13
+371,Joseph Jones,Joseph,Jones,2001-03-25,25,Male,joseph.jones@university.ac.za,(717)522-4216,Business Administration,1,Active,2026-02-08
+372,Julie Evans,Julie,Evans,2007-03-10,19,Female,julie.evans@university.ac.za,233-327-4050x6681,Medicine,4,Suspended,2022-06-22
+373,Joseph Lawrence,Joseph,Lawrence,2007-07-22,18,Other,joseph.lawrence@university.ac.za,220-258-9520,Data Science,2,Inactive,2022-11-11
+374,Carolyn Smith,Carolyn,Smith,2000-04-25,25,Other,carolyn.smith@university.ac.za,(637)387-9710x033,Psychology,2,Graduated,2022-03-09
+375,Louis Holland,Louis,Holland,2003-09-28,22,Other,louis.holland@university.ac.za,600-372-1919x703,Law,3,Graduated,2023-08-31
+376,Nicholas Sparks,Nicholas,Sparks,1998-11-26,27,Male,nicholas.sparks@university.ac.za,683-481-0532,Mechanical Engineering,2,Active,2023-11-07
+377,Brittany Gibson,Brittany,Gibson,2000-02-21,26,Other,brittany.gibson@university.ac.za,(882)871-6055x3060,Nursing,4,Active,2023-10-19
+378,Alyssa Hammond,Alyssa,Hammond,1990-10-11,35,Female,alyssa.hammond@university.ac.za,398.357.6041x615,Accounting,3,Inactive,2024-09-26
+379,Christy Franklin,Christy,Franklin,2003-01-18,23,Female,christy.franklin@university.ac.za,001-762-272-3013x517,Business Administration,2,Graduated,2025-12-03
+380,Patrick Davis,Patrick,Davis,1993-08-27,32,Other,patrick.davis@university.ac.za,+1-294-922-4098x1710,Public Administration,1,Active,2026-02-05
+381,Juan Wells,Juan,Wells,1995-07-19,30,Other,juan.wells@university.ac.za,288-936-7631x6805,Information Technology,2,Inactive,2026-01-15
+382,Alexander Gross,Alexander,Gross,2002-02-19,24,Male,alexander.gross@university.ac.za,320.289.9937,Public Administration,1,Inactive,2022-03-11
+383,Michael Armstrong,Michael,Armstrong,2002-03-25,24,Male,michael.armstrong@university.ac.za,+1-537-759-3076x7030,Business Administration,2,Active,2024-03-23
+384,William Baker,William,Baker,1991-07-31,34,Other,william.baker@university.ac.za,+1-877-600-7251,Accounting,2,Active,2024-02-23
+385,Jeffrey Miranda,Jeffrey,Miranda,1996-03-28,30,Other,jeffrey.miranda@university.ac.za,849.590.5672x272,Mechanical Engineering,2,Suspended,2024-08-28
+386,Benjamin Compton,Benjamin,Compton,1995-02-13,31,Other,benjamin.compton@university.ac.za,206-908-9810x796,Medicine,2,Active,2021-04-18
+387,Sara Burton,Sara,Burton,2002-12-12,23,Female,sara.burton@university.ac.za,001-847-357-7876x197,Mechanical Engineering,1,Active,2025-10-22
+388,Jordan Rodriguez,Jordan,Rodriguez,1994-07-06,31,Female,jordan.rodriguez@university.ac.za,001-988-316-7398x300,Psychology,4,Active,2022-05-19
+389,Kaitlyn Thomas,Kaitlyn,Thomas,1994-12-19,31,Other,kaitlyn.thomas@university.ac.za,885-749-1169x8280,Psychology,4,Active,2026-04-02
+390,Raymond Best,Raymond,Best,2001-09-06,24,Other,raymond.best@university.ac.za,001-508-625-9036,Data Science,4,Active,2024-07-15
+391,Denise Bailey,Denise,Bailey,2003-01-30,23,Female,denise.bailey@university.ac.za,(434)346-9732x91980,Medicine,4,Inactive,2025-02-09
+392,Vanessa Cruz,Vanessa,Cruz,1995-05-27,30,Other,vanessa.cruz@university.ac.za,(869)772-0031x36047,Mechanical Engineering,2,Inactive,2020-05-13
+393,Stephanie Mitchell,Stephanie,Mitchell,2001-06-23,24,Other,stephanie.mitchell@university.ac.za,9524076798,Electrical Engineering,2,Graduated,2022-09-22
+394,Tina Hicks,Tina,Hicks,1995-03-24,31,Female,tina.hicks@university.ac.za,001-327-964-7040x457,Public Administration,1,Inactive,2020-02-23
+395,Elizabeth Edwards,Elizabeth,Edwards,1991-11-25,34,Female,elizabeth.edwards@university.ac.za,001-208-258-7303,Accounting,2,Suspended,2022-10-01
+396,William Davis,William,Davis,2000-03-25,26,Other,william.davis@university.ac.za,+1-985-227-9069,Law,1,Suspended,2020-11-13
+397,David Martinez,David,Martinez,1999-09-19,26,Other,david.martinez@university.ac.za,850-610-4171,Human Resources,3,Suspended,2021-07-13
+398,James Whitney,James,Whitney,2004-06-08,21,Other,james.whitney@university.ac.za,635-819-0655,Business Administration,3,Active,2026-01-10
+399,Ian Guerrero,Ian,Guerrero,2003-01-08,23,Male,ian.guerrero@university.ac.za,508.983.6301x2358,Mechanical Engineering,4,Active,2026-01-23
+400,Paul Thompson,Paul,Thompson,2003-11-09,22,Other,paul.thompson@university.ac.za,388.278.1653x861,Law,1,Suspended,2020-02-11
+401,James Decker,James,Decker,1996-02-06,30,Male,james.decker@university.ac.za,363-690-1554,Business Administration,3,Graduated,2021-01-19
+402,Samantha Wood,Samantha,Wood,2002-03-24,24,Female,samantha.wood@university.ac.za,317.992.4838,Accounting,4,Inactive,2024-12-14
+403,Greg Edwards,Greg,Edwards,1995-12-14,30,Other,greg.edwards@university.ac.za,264-229-3341x32852,Law,1,Suspended,2024-09-04
+404,Anna Foster,Anna,Foster,2008-04-14,17,Female,anna.foster@university.ac.za,+1-665-284-2478x4100,Marketing,1,Inactive,2024-11-10
+405,Emily Robertson,Emily,Robertson,2001-08-05,24,Other,emily.robertson@university.ac.za,+1-906-815-7967x6879,Accounting,4,Active,2021-09-09
+406,John Warren,John,Warren,2005-03-08,21,Male,john.warren@university.ac.za,001-488-449-0694x692,Mechanical Engineering,2,Suspended,2021-04-11
+407,Amber Irwin,Amber,Irwin,2008-10-19,17,Other,amber.irwin@university.ac.za,001-964-269-1113x791,Business Administration,3,Active,2022-11-04
+408,Joshua Mercer,Joshua,Mercer,2008-10-30,17,Male,joshua.mercer@university.ac.za,474-249-2854x811,Computer Science,3,Active,2020-03-18
+409,Yvonne Griffin,Yvonne,Griffin,2005-04-09,21,Other,yvonne.griffin@university.ac.za,274.582.8012,Electrical Engineering,1,Active,2025-08-19
+410,Vincent Smith,Vincent,Smith,1994-02-20,32,Male,vincent.smith@university.ac.za,654-608-9464,Public Administration,2,Active,2022-11-04
+411,Kimberly Peters,Kimberly,Peters,2007-10-01,18,Female,kimberly.peters@university.ac.za,973.995.3317,Medicine,3,Active,2020-08-29
+412,James Nixon,James,Nixon,1996-11-18,29,Male,james.nixon@university.ac.za,899.210.9920x283,Electrical Engineering,1,Active,2021-05-23
+413,Meghan Thompson,Meghan,Thompson,2001-06-19,24,Female,meghan.thompson@university.ac.za,(886)405-0647,Psychology,1,Suspended,2025-07-21
+414,Nicholas Smith,Nicholas,Smith,2003-08-29,22,Male,nicholas.smith@university.ac.za,001-408-302-5910,Information Technology,4,Active,2021-11-07
+415,Heather Davis,Heather,Davis,1994-04-16,31,Female,heather.davis@university.ac.za,7136857284,Information Technology,3,Active,2020-02-23
+416,Raymond Mccann,Raymond,Mccann,1997-07-07,28,Male,raymond.mccann@university.ac.za,7662944233,Computer Science,2,Active,2022-03-01
+417,Darryl Herman,Darryl,Herman,1992-05-28,33,Other,darryl.herman@university.ac.za,+1-976-261-4056x0402,Marketing,1,Suspended,2025-09-27
+418,Kaylee Sharp,Kaylee,Sharp,1996-10-25,29,Female,kaylee.sharp@university.ac.za,(696)220-1289,Public Administration,2,Active,2024-07-16
+419,Jennifer Turner,Jennifer,Turner,1995-02-25,31,Female,jennifer.turner@university.ac.za,966.349.9888x93445,Nursing,1,Graduated,2023-11-30
+420,Lori Cortez,Lori,Cortez,2006-11-20,19,Female,lori.cortez@university.ac.za,001-799-737-9299x199,Marketing,2,Active,2022-09-06
+421,Leah Rodriguez,Leah,Rodriguez,2000-09-23,25,Female,leah.rodriguez@university.ac.za,001-684-330-1774,Accounting,1,Active,2023-09-14
+422,William Vasquez,William,Vasquez,1993-10-11,32,Male,william.vasquez@university.ac.za,+1-611-679-5607x6674,Human Resources,3,Graduated,2023-11-06
+423,Brandy Moore,Brandy,Moore,2008-12-02,17,Female,brandy.moore@university.ac.za,+1-819-917-8196x7817,Mechanical Engineering,4,Suspended,2023-03-20
+424,Dawn Carpenter,Dawn,Carpenter,1997-06-04,28,Other,dawn.carpenter@university.ac.za,(981)920-3970x43957,Accounting,2,Active,2025-02-13
+425,Eric Baker,Eric,Baker,1997-05-14,28,Male,eric.baker@university.ac.za,667-737-7576x75837,Marketing,4,Inactive,2022-01-04
+426,Deanna Solis,Deanna,Solis,1998-06-24,27,Other,deanna.solis@university.ac.za,466.490.8555,Data Science,2,Active,2020-06-11
+427,Ryan Soto,Ryan,Soto,1992-03-19,34,Other,ryan.soto@university.ac.za,001-759-205-4880x295,Medicine,2,Suspended,2020-09-04
+428,Robert Mcclure,Robert,Mcclure,1993-09-29,32,Male,robert.mcclure@university.ac.za,(806)723-8706x95727,Marketing,2,Active,2024-05-13
+429,Christina Williams,Christina,Williams,2004-07-09,21,Other,christina.williams@university.ac.za,(801)962-1778x1556,Computer Science,4,Active,2022-05-15
+430,Cassandra Black,Cassandra,Black,1996-01-22,30,Other,cassandra.black@university.ac.za,6478234388,Marketing,2,Inactive,2022-12-05
+431,Aaron Phillips,Aaron,Phillips,2002-10-01,23,Male,aaron.phillips@university.ac.za,(398)369-6284x8600,Human Resources,2,Active,2021-10-08
+432,Rebekah Gamble,Rebekah,Gamble,1991-01-02,35,Other,rebekah.gamble@university.ac.za,+1-549-249-0842x879,Data Science,2,Active,2024-03-14
+433,Kenneth Parker,Kenneth,Parker,2001-07-16,24,Male,kenneth.parker@university.ac.za,001-960-700-7664,Law,2,Suspended,2023-09-23
+434,Patricia Jones,Patricia,Jones,2000-07-25,25,Female,patricia.jones@university.ac.za,+1-974-247-3707x4972,Nursing,2,Active,2021-12-10
+435,Jason Bennett,Jason,Bennett,1998-08-04,27,Other,jason.bennett@university.ac.za,001-370-684-9337x524,Business Administration,1,Suspended,2025-05-25
+436,Carrie Knox,Carrie,Knox,2007-06-16,18,Female,carrie.knox@university.ac.za,6556244453,Mechanical Engineering,4,Active,2025-03-07
+437,Douglas Burgess,Douglas,Burgess,2002-07-15,23,Male,douglas.burgess@university.ac.za,(560)995-6620x025,Computer Science,3,Suspended,2024-10-06
+438,Paul Pierce,Paul,Pierce,2003-07-11,22,Male,paul.pierce@university.ac.za,+1-644-914-1410x5552,Information Technology,4,Inactive,2025-01-20
+439,Joshua Ward,Joshua,Ward,2008-02-06,18,Other,joshua.ward@university.ac.za,(467)966-7443,Electrical Engineering,3,Active,2025-09-17
+440,Caroline Ibarra,Caroline,Ibarra,1992-02-16,34,Other,caroline.ibarra@university.ac.za,932.641.8258,Computer Science,3,Inactive,2025-06-23
+441,Susan Smith,Susan,Smith,2001-11-07,24,Female,susan.smith@university.ac.za,001-498-960-1371x976,Business Administration,4,Active,2023-02-18
+442,Lisa Shaffer,Lisa,Shaffer,2001-11-29,24,Female,lisa.shaffer@university.ac.za,573-410-3740,Public Administration,3,Graduated,2021-02-08
+443,Brian Wheeler,Brian,Wheeler,2005-07-04,20,Other,brian.wheeler@university.ac.za,820-363-5592x91695,Law,3,Active,2022-09-19
+444,Michael Boyd,Michael,Boyd,1998-04-15,27,Male,michael.boyd@university.ac.za,(707)994-8290x170,Mechanical Engineering,1,Graduated,2025-02-05
+445,Sean Allen,Sean,Allen,2003-01-13,23,Other,sean.allen@university.ac.za,001-341-991-7721x615,Information Technology,2,Graduated,2024-01-09
+446,Michael Miller,Michael,Miller,1995-09-11,30,Male,michael.miller@university.ac.za,314-485-6354,Electrical Engineering,4,Suspended,2023-10-28
+447,William Pruitt,William,Pruitt,1998-05-12,27,Other,william.pruitt@university.ac.za,912.752.6632x7651,Business Administration,1,Inactive,2024-02-06
+448,Erin Kelley,Erin,Kelley,2002-06-23,23,Other,erin.kelley@university.ac.za,(484)923-2817,Nursing,3,Active,2024-12-10
+449,Derrick Price,Derrick,Price,2002-08-15,23,Male,derrick.price@university.ac.za,+1-884-418-2529x795,Human Resources,2,Active,2025-03-10
+450,Jose Sandoval,Jose,Sandoval,2008-06-12,17,Male,jose.sandoval@university.ac.za,001-208-386-0664,Accounting,3,Active,2023-03-02
+451,James Wilkerson,James,Wilkerson,1998-06-24,27,Other,james.wilkerson@university.ac.za,711.727.8881x5747,Public Administration,2,Inactive,2022-07-29
+452,Rebecca Romero,Rebecca,Romero,1996-07-09,29,Female,rebecca.romero@university.ac.za,(366)465-4855x526,Human Resources,2,Active,2025-07-25
+453,Morgan Jenkins,Morgan,Jenkins,2002-01-06,24,Female,morgan.jenkins@university.ac.za,884-453-8158x5275,Marketing,3,Graduated,2020-06-14
+454,Carmen Keller,Carmen,Keller,2002-05-26,23,Other,carmen.keller@university.ac.za,7002141603,Accounting,1,Inactive,2024-01-20
+455,William Johnson,William,Johnson,1992-01-31,34,Male,william.johnson@university.ac.za,485-576-9250,Nursing,1,Active,2020-06-29
+456,Colleen Christensen,Colleen,Christensen,2008-02-16,18,Female,colleen.christensen@university.ac.za,001-896-822-4242x019,Data Science,1,Active,2020-04-04
+457,Maria Hall,Maria,Hall,2008-11-05,17,Female,maria.hall@university.ac.za,886-780-4650x769,Psychology,4,Active,2020-08-05
+458,Thomas Gonzales,Thomas,Gonzales,1994-09-08,31,Other,thomas.gonzales@university.ac.za,297-884-8360x05375,Public Administration,3,Inactive,2023-04-01
+459,Nancy Mack,Nancy,Mack,2003-04-26,22,Other,nancy.mack@university.ac.za,315.758.8650x97161,Nursing,1,Inactive,2022-11-22
+460,Joel Munoz,Joel,Munoz,1993-11-11,32,Other,joel.munoz@university.ac.za,+1-817-534-2630x215,Information Technology,4,Graduated,2021-03-28
+461,Melissa Johnson,Melissa,Johnson,1995-11-30,30,Female,melissa.johnson1@university.ac.za,001-310-566-2469x988,Human Resources,2,Active,2025-10-23
+462,Frederick Cowan,Frederick,Cowan,1994-08-23,31,Other,frederick.cowan@university.ac.za,9603591184,Human Resources,4,Active,2025-05-07
+463,Raymond Scott,Raymond,Scott,1999-03-22,27,Male,raymond.scott@university.ac.za,870-711-5505x1849,Data Science,4,Graduated,2020-01-31
+464,Michael Wallace,Michael,Wallace,2007-07-12,18,Male,michael.wallace@university.ac.za,(539)289-1729x658,Computer Science,1,Active,2022-03-10
+465,Raymond Smith,Raymond,Smith,2006-06-10,19,Other,raymond.smith@university.ac.za,001-887-843-7402x953,Public Administration,2,Active,2020-02-02
+466,Michael Simon,Michael,Simon,2008-06-08,17,Other,michael.simon@university.ac.za,001-260-582-9701x935,Electrical Engineering,2,Suspended,2024-01-10
+467,Dawn Yoder,Dawn,Yoder,2001-02-06,25,Female,dawn.yoder@university.ac.za,+1-256-698-8976x9157,Civil Engineering,3,Graduated,2026-01-07
+468,Joshua Stanley,Joshua,Stanley,2006-07-04,19,Male,joshua.stanley@university.ac.za,526-837-5537x057,Marketing,2,Suspended,2022-09-03
+469,Jason Howard,Jason,Howard,2003-01-18,23,Male,jason.howard@university.ac.za,271-927-6868x023,Marketing,2,Active,2020-06-17
+470,Jorge Owens,Jorge,Owens,2009-01-27,17,Other,jorge.owens@university.ac.za,520.787.3970,Business Administration,1,Active,2021-06-05
+471,Carlos Fisher,Carlos,Fisher,2002-10-26,23,Other,carlos.fisher@university.ac.za,+1-843-610-3642x431,Nursing,1,Graduated,2020-01-04
+472,Lindsey Pierce,Lindsey,Pierce,1990-05-16,35,Female,lindsey.pierce@university.ac.za,841-920-9206,Law,4,Active,2021-04-19
+473,Thomas Carroll,Thomas,Carroll,2008-04-19,17,Other,thomas.carroll@university.ac.za,885.798.7335,Medicine,3,Active,2020-10-30
+474,David Johnson,David,Johnson,2006-08-12,19,Male,david.johnson@university.ac.za,001-629-792-3036,Law,4,Active,2025-03-27
+475,Daniel Simmons,Daniel,Simmons,2000-10-04,25,Male,daniel.simmons@university.ac.za,001-665-619-9020x042,Computer Science,2,Active,2026-03-06
+476,Michelle Schultz,Michelle,Schultz,1996-04-16,29,Female,michelle.schultz@university.ac.za,959.680.4513x770,Human Resources,4,Active,2022-06-15
+477,Amy Roberts,Amy,Roberts,2005-03-02,21,Female,amy.roberts@university.ac.za,+1-395-291-6305x1342,Psychology,2,Suspended,2021-05-12
+478,Julie Atkins,Julie,Atkins,1992-01-15,34,Female,julie.atkins@university.ac.za,463.895.1280x9956,Marketing,3,Inactive,2022-04-08
+479,Connie Thomas,Connie,Thomas,1998-12-28,27,Female,connie.thomas@university.ac.za,001-462-297-9581x012,Electrical Engineering,2,Active,2023-01-06
+480,Jeremy Bailey,Jeremy,Bailey,1990-07-02,35,Male,jeremy.bailey@university.ac.za,2323842578,Computer Science,2,Graduated,2020-05-26
+481,Erik Lopez,Erik,Lopez,2004-06-14,21,Other,erik.lopez@university.ac.za,001-824-856-2855x198,Electrical Engineering,4,Active,2021-08-31
+482,Gregory Powell,Gregory,Powell,1999-01-11,27,Male,gregory.powell@university.ac.za,+1-228-474-0286x8561,Accounting,3,Active,2021-11-30
+483,Michael Guerra,Michael,Guerra,1991-03-20,35,Male,michael.guerra@university.ac.za,(541)235-0132,Data Science,2,Active,2021-11-23
+484,Thomas Gonzalez,Thomas,Gonzalez,2001-02-24,25,Male,thomas.gonzalez@university.ac.za,506-365-9640,Electrical Engineering,4,Active,2023-04-01
+485,Michael Rodriguez,Michael,Rodriguez,2006-04-28,19,Male,michael.rodriguez1@university.ac.za,2175383876,Human Resources,4,Inactive,2020-01-07
+486,John Rowland,John,Rowland,2000-09-04,25,Male,john.rowland@university.ac.za,(923)279-6775,Business Administration,1,Graduated,2020-07-03
+487,Jill Guerrero,Jill,Guerrero,2006-07-19,19,Female,jill.guerrero@university.ac.za,945-583-6248x69921,Electrical Engineering,1,Graduated,2022-06-18
+488,Jaclyn Scott,Jaclyn,Scott,2001-09-30,24,Other,jaclyn.scott@university.ac.za,629-560-5857x036,Data Science,4,Active,2021-06-08
+489,Jennifer Gonzalez,Jennifer,Gonzalez,1990-04-18,35,Female,jennifer.gonzalez@university.ac.za,(708)491-3178x49397,Information Technology,4,Suspended,2023-11-29
+490,Tiffany Greene,Tiffany,Greene,2003-02-11,23,Female,tiffany.greene@university.ac.za,(594)941-3325x59359,Nursing,4,Active,2025-11-10
+491,James Sanchez,James,Sanchez,2008-06-21,17,Other,james.sanchez@university.ac.za,001-316-555-1797x154,Public Administration,4,Active,2023-02-04
+492,Lisa James,Lisa,James,1992-08-04,33,Female,lisa.james@university.ac.za,(497)708-7631x53157,Psychology,1,Inactive,2026-04-05
+493,Briana Turner,Briana,Turner,2005-09-03,20,Other,briana.turner@university.ac.za,001-411-442-4730,Marketing,4,Active,2025-03-20
+494,Tiffany Strickland,Tiffany,Strickland,2008-05-31,17,Female,tiffany.strickland@university.ac.za,843.468.8323x5765,Mechanical Engineering,1,Inactive,2025-10-26
+495,Colleen Everett,Colleen,Everett,2006-01-21,20,Other,colleen.everett@university.ac.za,+1-679-469-7685x6500,Mechanical Engineering,3,Graduated,2022-09-07
+496,Bradley Bates,Bradley,Bates,1992-12-07,33,Male,bradley.bates@university.ac.za,503.776.7680,Mechanical Engineering,4,Active,2021-08-24
+497,Jill Morrow,Jill,Morrow,2000-06-11,25,Female,jill.morrow@university.ac.za,+1-950-491-3489x024,Business Administration,4,Active,2023-06-02
+498,Jay Mcintyre,Jay,Mcintyre,2002-04-23,23,Other,jay.mcintyre@university.ac.za,(894)824-8641,Marketing,4,Active,2025-02-11
+499,Eduardo Robinson,Eduardo,Robinson,2004-06-30,21,Male,eduardo.robinson@university.ac.za,506.788.4911x3418,Accounting,1,Active,2026-01-10
+500,Joshua Sanchez,Joshua,Sanchez,1995-11-28,30,Other,joshua.sanchez@university.ac.za,371-384-5082,Information Technology,4,Suspended,2021-12-02
